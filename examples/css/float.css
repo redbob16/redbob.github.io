@@ -1,0 +1,22 @@
+#floatRight {
+    width: 300px;
+    float: right;
+    margin: 24px;
+    padding: 15px
+}
+
+#floatLeft {
+    width: 300px;
+    float: left;
+    margin: 24px;
+    padding: 15px
+}
+p {
+    padding: 24px;
+    background-color: #2D0D58;
+    color: whitesmoke;
+}
+
+#clear {
+    clear: both
+}

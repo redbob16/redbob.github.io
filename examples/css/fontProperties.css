@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Unbounded:wght@600&display=swap');
+
+/*
+    The five basic fallback font families are:
+    serif, san serif, monospace, cursive, fantasy
+*/
+
+#p1 {
+    color: darkred;
+    font-family: 'Unbounded', cursive;
+    font-size: 24px;
+}
+
+#p2 {
+    color: #7FBD34;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+#p3 {
+    color: rgba(2, 56, 89, 0.5);
+
+}
+
+#p4 {
+    font-weight: bold;
+    
+}
+
+#p5 {
+    font-style: italic;
+    text-decoration: lime wavy overline;
+}
+
+#p6 {
+    text-decoration: red underline;
+}
