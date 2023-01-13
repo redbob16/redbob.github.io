@@ -1,0 +1,74 @@
+#floatRight {
+    width: 250px;
+    border: 1px solid grey;
+    background-color: white;
+    float: right;
+    margin: 24px
+}
+#spaceGhost1 {
+    background-color: darkblue;
+    text-align: center;
+    margin: 2px
+    }
+
+#spaceGhost2 {
+    color: white;
+}
+
+#contents {
+    width: 170px;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    float: left;
+    color: blue;
+    margin: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+#contentsH5 {
+    text-align: center;
+    color: black;
+}
+
+#universeInfo {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    margin: 2px;
+}
+ul ul {
+
+    list-style-type: disc;
+}
+
+#footer {
+    width: 600px;
+    background-color: inherit;
+    border: 1px solid grey;
+    text-align: center;
+    float: center;
+    font-size: 114%;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#footer2 {
+    background-color: lavender;
+    color: navy;
+    padding: 1px
+}
+
+#footer3 {
+    color: navy;
+}
+
+#footer4{
+    color: navy;
+}
+
+#footer5 {
+    background-color: lavender;
+    color: navy;
+    padding: 1px
+}
