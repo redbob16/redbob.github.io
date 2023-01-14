@@ -47,14 +47,14 @@ figure {
     margin-bottom: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     color: #F47E72;
     }
 
 figure img {
     width: 200px;
-    box-shadow: 2px 2px 16px;
+    box-shadow: 2px 2px 16px #D710EC;
 }
 
 .clear {
