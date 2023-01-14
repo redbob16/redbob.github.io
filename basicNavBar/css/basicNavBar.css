@@ -1,0 +1,26 @@
+nav {
+    background-color: #262625;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    margin-top: 100px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    color: #F2F2F2;
+}
+
+main {
+    height: 1500px;
+    background-color: #495B73;
+}
+
+a {
+    color: #A6A6A6;
+}
