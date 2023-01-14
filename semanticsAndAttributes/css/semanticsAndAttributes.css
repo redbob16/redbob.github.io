@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    background-color: #F47E72;
+    color: white;
+    
+}
+
+header {
+    border-bottom: 2px solid grey;
+    padding: 60px 36px 36px 36px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 60px 0px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    margin: 6px;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 48px;
+}
+
+main h3 {
+    color: #F47E72;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 10px #F47E72;
+    margin-bottom: 48px;
+    padding: 48px;
+}
+
+figure {
+    float: left;
+    margin-bottom: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #F47E72;
+    }
+
+figure img {
+    width: 200px;
+    box-shadow: 2px 2px 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    border-top: 2px solid gray;
+    padding: 48px;
+    text-align: center;
+}
+
+footer div {
+    margin: 12px;
+}
