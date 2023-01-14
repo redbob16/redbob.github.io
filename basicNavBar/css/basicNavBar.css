@@ -13,7 +13,6 @@ ul {
 li {
     display: inline-block;
     padding: 10px;
-    color: #F2F2F2;
 }
 
 main {
@@ -21,6 +20,10 @@ main {
     background-color: #495B73;
 }
 
-a {
+main h1 {
     color: #A6A6A6;
+}
+
+a {
+    color: whitesmoke;
 }
