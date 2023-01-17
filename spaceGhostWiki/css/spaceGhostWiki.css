@@ -72,3 +72,17 @@ ul ul {
     color: navy;
     padding: 1px
 }
+
+.sideBySide {
+    display: flex;
+    margin: 8px;
+}
+
+.sideBySide span {
+    text-align: left;
+}
+
+.sideBySide span:first-child {
+    font-weight: bold;
+    width: 100px;
+}
