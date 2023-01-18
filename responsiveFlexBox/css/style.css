@@ -28,6 +28,13 @@ a:hover {
 
 p {
     color: darkblue;
+    padding: 50px;
+    text-align: center;
+    margin: 24px;
+}
+
+hr {
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -53,5 +60,11 @@ p {
 
     p {
         color: darkolivegreen;
+        padding: 50px;
+        margin: 24px;
+    }
+
+    hr {
+       
     }
 }
