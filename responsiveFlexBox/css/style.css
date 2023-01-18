@@ -33,10 +33,6 @@ p {
     margin: 24px;
 }
 
-hr {
-    
-}
-
 @media screen and (max-width: 768px) {
     body {
         background-color: skyblue;
@@ -62,9 +58,5 @@ hr {
         color: darkolivegreen;
         padding: 50px;
         margin: 24px;
-    }
-
-    hr {
-       
     }
 }
