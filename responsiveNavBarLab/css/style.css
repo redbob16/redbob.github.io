@@ -1,3 +1,11 @@
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: darkblue
+}
+
 nav a {
     text-decoration: none;
     color: black;
@@ -46,7 +54,7 @@ nav > ul > li:hover {
 
 #logo {
     display: flex;
-    margin-left: px;
+    margin-left: 0px;
 }
 
 #logo img {
