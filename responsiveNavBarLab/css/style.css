@@ -16,7 +16,7 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-    background-color: darkolivegreen;
+    background-color: darkgrey;
 }
 
 .dropDown {
@@ -44,6 +44,15 @@ nav > ul > li:hover {
     width: 150%;
 }
 
-nav img {
-    height: 80px;
+#logo {
+    display: flex;
+    margin-left: px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+main img {
+    height: 500px;
 }
