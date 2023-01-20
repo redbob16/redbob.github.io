@@ -14,6 +14,7 @@ nav a {
 nav > ul {
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style-type: none;
     padding: 0px;
 }
@@ -21,40 +22,59 @@ nav > ul {
 nav > ul > li {
     padding: 12px;
     background-color: darkblue;
+    transition: background-color 0.5s;
 }
 
 nav > ul > li:hover {
-    background-color: darkgrey;
+    background-color: grey;
 }
 
-.dropDown {
+.dropdown {
     position: relative;
 }
 
-.dropDown ul {
-    display: none;
+.dropdown ul {
     flex-direction: column;
     list-style-type: none;
     padding: 0px;
     position: absolute;
-    top: 58px;
+    top: 75px;
     left: 0px;
-    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        top 0.5s;
 }
 
-.dropDown:hover ul {
-    display: flex;
+.dropdown:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%
 }
 
-.dropDown ul li {
+.dropdown ul li {
     background-color: orangered;
     padding: 12px;
     width: 150%;
 }
 
+.dropdown ul li a {
+    background-color: orangered;
+    display: inline-block;
+    padding: 12px;
+    width: 95px;
+}
+
+.dropdown ul li a:hover {
+    color: darkolivegreen;
+    text-decoration: underline;
+}
+
 #logo {
     display: flex;
-    margin-left: 0px;
+    margin-left: auto;
 }
 
 #logo img {
@@ -63,4 +83,24 @@ nav > ul > li:hover {
 
 main img {
     height: 500px;
+}
+
+.textAndImage {
+    align-items: center;
+    display: flex;
+    margin: 24px;;
+}
+
+.textBlock {
+    flex: 2;
+    margin: 24px;
+}
+
+.imageBlock {
+    flex: 1;
+}
+
+.imageBlock img {
+    border-radius: 2px;
+    width: 100%;
 }
