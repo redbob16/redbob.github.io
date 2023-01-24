@@ -1,0 +1,23 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 16px;
+}
+
+thead tr {
+    background-color: aliceblue;
+}
+
+tbody tr:first-child {
+    background-color: gray;
+}
+
+#rThirtyFour {
+    background-color: pink;
+}
+
+colgroup col:first-child {
+    background-color: red;
+}
