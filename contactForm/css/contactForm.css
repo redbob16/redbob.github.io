@@ -20,5 +20,5 @@ header {
 #formContainer {
     background-color: whitesmoke;
     border: 2px solid gray;
-    grid-area: content;
+    grid-area: container;
 }
