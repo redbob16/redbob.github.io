@@ -39,10 +39,30 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 1100px;
+    max-height: 950px;
 }
 
 #gallery4 img {
     width: 30%;
     margin: 12px;
+}
+
+#gallery5 {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+#gallery5 img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#gallery6 {
+    columns: 2 auto;
+    column-gap: 24px;
+}
+
+#gallery6 img {
+    width: 100%;
+    margin-bottom: 24px;
 }
