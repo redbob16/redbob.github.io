@@ -18,12 +18,20 @@
             </header>
             <div id="formContainer">
                 <form>
+                    <label>What can we help you with?</label>
+                    <select name="questionType">
+                        <option value="" disabled selected>-- Choose From The Following List --</option>
+                        <option value="Commission">Commission</option>
+                        <option value="carWarranty">Want to extend my cars warranty</option>
+                        <option value="websiteDesign">Website Design</option>
+                        <option value="adRemoval">Need a break from the ads?</option>
+                    </select>
                     <label>Name</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" placeholder="Type Your Name Here">
                     <label>Email</label>
-                    <imput type="text" name="email">
+                    <input type="text" name="email" placeholder="Type Your Email Here">
                     <label>Message</label>
-                    <textarea name="message">Type your message here.</textarea>
+                    <textarea name="message" placeholder="Type your message here..."></textarea>
                     <input type="submit" name="send" value="send">
                 </form>
             </div>
