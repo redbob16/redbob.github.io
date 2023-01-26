@@ -48,6 +48,7 @@ form input[type=submit] {
     border-radius: 4px;
     color: white;
     padding: 16px 24px;
+    min-width: 250px;
 }
 
 ::placeholder {
