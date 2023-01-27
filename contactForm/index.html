@@ -17,7 +17,9 @@
                 </p>
             </header>
             <div id="formContainer">
-                <form>
+                <form 
+                    action="https://getform.io/f/e1b606aa-79ab-45eb-a689-d06870da2892"
+                    method="POST">
                     <label>What can we help you with?</label>
                     <select name="questionType">
                         <option value="" disabled selected>-- Choose From The Following List --</option>
@@ -33,17 +35,17 @@
                         <option value="ms">Ms.</option>
                     </select>
                     <label>First Name</label>
-                    <input type="text" name="name" placeholder="First Name">
+                    <input type="text" name="name" placeholder="First Name" minlength="2" maxlength="30">
                     <label>Last Name</label>
-                    <input type="text" name="name" placeholder="Last Name">
+                    <input type="text" name="name" placeholder="Last Name" minlength="2" maxlength="30">
                     <label>Email</label>
-                    <input type="text" name="email" placeholder="Email Address">
+                    <input type="text" name="email" placeholder="Email Address" minlength="5" maxlength="30">
                     <label>Password</label>
-                    <input type="text" name="name" placeholder="Password">
+                    <input type="text" name="name" placeholder="Password" minlength="8" maxlength="30">
                     <label>Confirm Password</label>
-                    <input type="text" name="name" placeholder=" Confirm Password">
+                    <input type="text" name="name" placeholder=" Confirm Password" minlength="8" maxlength="30">
                     <label>Message</label>
-                    <textarea name="message" placeholder="Type your message here..."></textarea>
+                    <textarea name="message" placeholder="Type your message here..." maxlength="150"></textarea>
                     <input type="submit" name="send" value="send">
                 </form>
             </div>
