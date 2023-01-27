@@ -43,7 +43,7 @@ header img {
 */
 input[type=text],
 input[type=date],
-input[type=tel],
+input[type=email],
 input[type=password],
 select,
 #genderInputs > div,
@@ -141,6 +141,13 @@ a {
     margin: 24px;
 }
 
-input:invalid {
+input:invalid,
+#phoneOrEmailInput:valid {
     border-color: red;
+}
+
+input:valid,
+input[type=checkbox],
+#phoneOrEmailInput:valid {
+    border-color: #10a515;
 }
