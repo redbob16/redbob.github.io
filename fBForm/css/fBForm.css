@@ -37,9 +37,17 @@ header img {
     border-bottom: 2px solid #dddddd;
 }
 
+/*
+    this code styles the 
+    boxes of inputs
+*/
 input[type=text],
 input[type=date],
-select {
+input[type=tel],
+input[type=password],
+select,
+#genderInputs > div,
+input[type=submit] {
     border: 2px solid #dddddd;
     border-radius: 4px;
     padding: 8px;
@@ -81,7 +89,8 @@ select {
     width: 100%;
 }
 
-#titleBdayPublicInputs > div label {
+#titleBdayPublicInputs > div label,
+#genderRadioButtons > label {
     font-size: 12px;
     font-weight: bold;
     margin-left: 5px;
@@ -89,4 +98,45 @@ select {
 
 #titleBdayPublicInputs input[type=checkbox] {
     margin: 16px 0px 16px 8px;
+}
+
+#genderRadioButtons {
+    margin: 12px;
+    text-align: left;
+}
+
+#genderInputs {
+    display: flex;
+}
+
+#genderInputs > div {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#formFields p {
+    font-size: 12px;
+    margin: 16px;
+    text-align: left;
+    color: #7b7b7b;
+}
+
+input[type=submit] {
+    background-color: #10a515;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    min-width: 175px;
+}
+
+a {
+    color: #3673C7;
+    text-decoration: none;
+}
+
+#login {
+    display: block;
+    margin: 24px;
 }
