@@ -29,8 +29,8 @@ header {
 }
 
 #formContainer {
-    background-color: #D9C9BA;
-    border: 2px solid #F2EFEB;
+    background-color: white;
+    border: 2px solid lightgrey;
     grid-area: container;
     padding: 32px;
     border-radius: 4px;
@@ -58,19 +58,20 @@ form select {
     padding: 12px;
     width: 100%;
     margin-bottom: 16px;
-    color: white;
-    background-color: #3D403A;
-    border: 0px;
+    color: black;
+    background-color: white;
+    border: 1px solid lightgray;
     border-radius: 3px;
+    font-weight: bold;
 }
 
 form input[type=submit] {
-    background-color: #3D403A;
+    background-color: #0770A3;
     border: 0px;
     border-radius: 4px;
     color: #0D0D0D;
     padding: 16px 24px;
-    min-width: 250px;
+    min-width: 100px;
     font-weight: bold;
     font-size: 16px;
 }
@@ -84,15 +85,11 @@ input:not(:focus):not(:placeholder-shown):invalid {
     border: 3px solid red;
 }
 
-form input:invalid {
-    border: 3px solid red;
-}
-
-form input[type=email]:invalid,
-form input[type=password]:invalid {
+input:not(:focus):not(:placeholder-shown):invalid[type=email],
+input:not(:focus):not(:placeholder-shown):invalid[type=password] {
     border: 3px solid red;
     box-shadow: 0px 0px 16px red;
-    animation: invalidWiggle 0.3s 2;
+    animation: invalidWiggle 0.3s 1;
 }
 
 @keyframes invalidWiggle {
