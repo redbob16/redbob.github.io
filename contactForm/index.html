@@ -66,15 +66,16 @@
                         id="passwordInput"
                         type="password" 
                         name="name" 
-                        placeholder="Password*" 
+                        placeholder="Required*" 
                         minlength="8" 
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Confirm Password</label>
                     <input
                         id="confirmPasswordInput" 
                         type="password" 
                         name="name" 
-                        placeholder=" Confirm Password*" 
+                        placeholder=" Required*" 
                         minlength="8" 
                         maxlength="30"
                         required>
@@ -85,11 +86,13 @@
                         placeholder="Type your message here..." 
                         maxlength="150">
                     </textarea>
-                    <input 
-                        id="submitButton"
-                        type="submit" 
-                        name="send" 
-                        value="send">
+                    <div id="buttonBox">
+                        <input 
+                            id="submitButton"
+                            type="submit" 
+                            name="send" 
+                            value="send">
+                    </div>
                 </form>
             </div>
         </section>

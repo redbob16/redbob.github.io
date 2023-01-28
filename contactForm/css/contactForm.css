@@ -36,6 +36,14 @@ header {
     border-radius: 4px;
 }
 
+#buttonBox {
+    text-align: center;
+}
+
+#buttonBox input[value=send] {
+    color: #F2EFEB;
+}
+
 form label {
     display: block;
     font-weight: bold;
@@ -50,6 +58,7 @@ form select {
     padding: 12px;
     width: 100%;
     margin-bottom: 16px;
+    color: white;
     background-color: #3D403A;
     border: 0px;
     border-radius: 3px;
@@ -71,15 +80,36 @@ form input[type=submit] {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-form input:invalid,
-input[type=email] {
-    border-color: 3px solid red;
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 3px solid red;
 }
 
-input:valid,
-input[type=email],
-#emailInput:valid {
-    border-color: #10a515;
+form input:invalid {
+    border: 3px solid red;
+}
+
+form input[type=email]:invalid,
+form input[type=password]:invalid {
+    border: 3px solid red;
+    box-shadow: 0px 0px 16px red;
+    animation: invalidWiggle 0.3s 2;
+}
+
+@keyframes invalidWiggle {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-15px);
+    }
+    75% {
+        transform: translate(15px);
+    }
+}
+
+form input[type=password]:valid {
+    border: 3px solid #10a515;
+    box-shadow: 0px 0px 16px #10a515;
 }
 
 @media screen and (max-width: 600px) {
