@@ -18,6 +18,7 @@ body {
     grid-template-areas: 
         ". header ."
         ". container .";
+    padding: 100px;
     background-color: #888C81;
 }
 
@@ -76,12 +77,12 @@ input[type=email] {
 }
 
 input:valid,
-input[type=email]
+input[type=email],
 #emailInput:valid {
     border-color: #10a515;
 }
 
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: #fefefe;
     }
