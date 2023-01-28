@@ -42,6 +42,8 @@ form label {
 }
 
 form input[type=text],
+form input[type=email],
+form input[type=password],
 form textarea,
 form select {
     padding: 12px;
@@ -68,6 +70,27 @@ form input[type=submit] {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-input:invalid {
-    border: 3px solid red;
+form input:invalid,
+input[type=email] {
+    border-color: 3px solid red;
+}
+
+input:valid,
+input[type=email]
+#emailInput:valid {
+    border-color: #10a515;
+}
+
+@media screen (max-width: 600px) {
+    body {
+        background-color: #fefefe;
+    }
+
+    #gridContainer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            ". header ."
+            ". container .";
+        background-color: #888C81;
+    }
 }

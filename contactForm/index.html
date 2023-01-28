@@ -35,47 +35,58 @@
                         <option value="ms">Ms.</option>
                     </select>
                     <label>First Name</label>
-                    <input 
+                    <input
+                        id="firstNameInput" 
                         type="text" 
                         name="name" 
-                        placeholder="First Name" 
+                        placeholder="Required*" 
                         minlength="2" 
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Last Name</label>
-                    <input 
+                    <input
+                        id="lastNameInput" 
                         type="text" 
                         name="name" 
-                        placeholder="Last Name" 
+                        placeholder="Required*" 
                         minlength="2" 
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Email</label>
                     <input 
-                        type="text" 
+                        id="emailInput"
+                        type="email" 
                         name="email" 
-                        placeholder="Email Address" 
+                        placeholder="Required*" 
                         minlength="5" 
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Password</label>
                     <input 
-                        type="text" 
+                        id="passwordInput"
+                        type="password" 
                         name="name" 
-                        placeholder="Password" 
+                        placeholder="Password*" 
                         minlength="8" 
                         maxlength="30">
                     <label>Confirm Password</label>
-                    <input 
-                        type="text" 
+                    <input
+                        id="confirmPasswordInput" 
+                        type="password" 
                         name="name" 
-                        placeholder=" Confirm Password" 
+                        placeholder=" Confirm Password*" 
                         minlength="8" 
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Message</label>
                     <textarea 
+                        id="textArea"
                         name="message" 
                         placeholder="Type your message here..." 
                         maxlength="150">
                     </textarea>
                     <input 
+                        id="submitButton"
                         type="submit" 
                         name="send" 
                         value="send">
