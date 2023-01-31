@@ -57,8 +57,9 @@ p {
 }
 
 #hero3 {
+    height: 100vh;
     background-image: url("../assets/images/april2022-112.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
