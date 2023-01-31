@@ -4,5 +4,24 @@ body {
 
 #hero1 {
     background-image: url("../assets/images/Untitled-1\ copy.jpg");
+    background-size: cover;
+    background-position: 75% 55%;
+    background-repeat: no-repeat;
     height: 500px;
+    color: #8CA0BC;
+    position: relative;
+    transition: filter 0.5s;
+}
+
+#hero1:hover {
+    filter: blur(2px);
+}
+
+
+#hero1 h1 {
+    position: absolute;
+    top: 335px;
+    left: 245px;
+    font-size: 60px;
+    font-family: fantasy;
 }
