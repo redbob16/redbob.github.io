@@ -25,3 +25,13 @@ body {
     font-size: 60px;
     font-family: fantasy;
 }
+
+p {
+    font-size: 32px;
+    margin: 48px;
+}
+
+#hero2 {
+    height: 100vh;
+    background-image: url("../assets/images/april2022-86.jpg");
+}
