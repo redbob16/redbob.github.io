@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 #hero {
-    background-image: url("assets/images/ProductPhotographyCritique_6008_Ltroyer_v4\ copy\ Medium\ copy.jpeg");
+    background-image: url("assets/images/april2022-86\ copy\ 2.jpg");
     background-attachment: fixed;
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #hero h1 {
+    font-family: 'Pirata One', cursive;
     font-size: 48px;
     text-align: center;
+    color: #91001B;
+}
+
+.accordion-button {
+    font-family: 'Dosis', sans-serif;
+}
+
+h5 {
+    font-family: 'UnifrakturMaguntia', cursive;
 }
