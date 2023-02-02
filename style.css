@@ -1,0 +1,15 @@
+#hero {
+    background-image: url("assets/images/ProductPhotographyCritique_6008_Ltroyer_v4\ copy\ Medium\ copy.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    text-align: center;
+}
