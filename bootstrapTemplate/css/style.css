@@ -64,7 +64,7 @@ footer ul {
   Grid styles
 ****************************************************************************/
 #siteGrid {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1000px 1fr;
   grid-auto-rows: minmax(50px, auto);
   grid-template-areas:
