@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
 #hero {
-    background-image: url("assets/images/april2022-86\ copy\ 2.jpg");
-    background-attachment: fixed;
-    background-position: center top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
     height: 100vh;
+    background-image: url("assets/images/april2022-86\ copy\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +19,14 @@
 #hero h1 {
     font-family: 'Pirata One', cursive;
     font-size: 48px;
-    text-align: center;
+    position: absolute;
+  top: 400px;
+  left: 300px;
     color: #91001B;
+}
+
+.container {
+    margin: 50px
 }
 
 .accordion-button {
@@ -28,4 +35,17 @@
 
 h5 {
     font-family: 'UnifrakturMaguntia', cursive;
+}
+
+@media screen and (max-width: 600px) {
+    .containerAccordion {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            ". header ."
+            ". container .";
+    }
+
+    body {
+        background-color: crimson;
+    }
 }
