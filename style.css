@@ -48,4 +48,6 @@ h5 {
     body {
         background-color: crimson;
     }
+
+    #hero h1 {    position: static;}
 }
