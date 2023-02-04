@@ -160,6 +160,17 @@ nav h2 {
     margin: 20px;
 }
 
+#hero2 {
+    height: 100vh;
+    background-image: url("../assets/images/coffeeberries2\ Large.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin: 20px;
+}
+
 /****************************************************************************
   Link styles
 ****************************************************************************/
