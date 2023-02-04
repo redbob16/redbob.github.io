@@ -80,14 +80,9 @@ nav {
   margin: 0 24px;
 }
 
-section .navImg {
-    height: 12vh;
-    width: 20vh;
-    background-image: url("../assets/images/Artboard\ 4.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+.logo3 {
+    width: 150px;
+    background-image: url("../assets/images/Artboard\ 3.svg");
 }
 
 footer {
@@ -145,7 +140,18 @@ nav h2 {
 
 #hero {
     height: 100vh;
-    background-image: url("../assets/images/farm.jpg");
+    background-image: url("../assets/images/farm\ copy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin: 20px;
+}
+
+#heroParallax2 {
+    height: 100vh;
+    background-image: url("../assets/images/coffeebeans\ Large.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -214,6 +220,10 @@ nav h2 {
 ****************************************************************************/
 #carousel {
   text-align: center;
+}
+
+#carousel img {
+    width: 100vh;
 }
 
 /****************************************************************************
