@@ -171,6 +171,11 @@ nav h2 {
     margin: 20px;
 }
 
+#hero2 h1 {
+    color: white;
+    align-content: center;
+}
+
 /****************************************************************************
   Link styles
 ****************************************************************************/
@@ -212,6 +217,10 @@ nav h2 {
   text-align: center;
   box-shadow: 4px 4px 8px 0px grey;
   flex: 1;
+}
+
+.card-body {
+    border: 0px
 }
 
 .techCard1,
