@@ -169,6 +169,7 @@ nav h2 {
     background-attachment: fixed;
     position: relative;
     margin: 20px;
+    grid-area: heroArea;
 }
 
 #hero2 h1 {
