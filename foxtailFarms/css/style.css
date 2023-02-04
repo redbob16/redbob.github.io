@@ -203,6 +203,34 @@ nav h2 {
   flex: 1;
 }
 
+.techCard1,
+.energyCard2
+ {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
+.dNACard3 {
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
+.stemCard4 {
+    object-fit: contain;
+    margin: 0px auto;
+}
+
+.patentCard5 {
+    height: 260px;
+    width: 300px;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
 .card p {
   font-size: 18px;
   min-height: 100px;
