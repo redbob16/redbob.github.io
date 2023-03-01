@@ -56,3 +56,18 @@ body {
     opacity: 1;
     color: #30F2CF;
 }
+
+#picCred {
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: #F24F13;
+    color: #222;
+    padding: 10px;
+    margin: 16px;
+}
+
+#picCred:hover {
+    color: #F24F13;
+    background-color: #222;
+    transition: 0.5s;
+}
