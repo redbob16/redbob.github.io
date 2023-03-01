@@ -34,6 +34,7 @@ body {
 }
 
 #countdown {
+    writing-mode: vertical-lr;
     font-family: 'Ovo', serif;
     font-size: 89px;
     font-weight: bold;
@@ -47,9 +48,11 @@ body {
     font-family: 'Rye', cursive;
     font-size: 24px;
     transition: opacity 1s;
+    color: #30F2CF;
 	opacity: 0;
 }
 
 #ohHi:hover {
     opacity: 1;
+    color: #30F2CF;
 }
