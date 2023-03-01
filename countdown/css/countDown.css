@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 
 body {
@@ -58,12 +59,15 @@ body {
 }
 
 #picCred {
+    font-family: 'Gloock', serif;
     text-decoration: none;
     border-radius: 100px;
     background-color: #F24F13;
     color: #222;
     padding: 10px;
-    margin: 16px;
+    margin-top: 50px;
+    justify-content: center;
+
 }
 
 #picCred:hover {
