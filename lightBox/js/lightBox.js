@@ -24,28 +24,3 @@ lightboxCloser.onclick = closeLightbox;
 lightboxBackground.onclick = closeLightbox;
 
 // second image lightbox
-
-let lightboxContainer2 = 
-    document.getElementById("lightboxContainer2");
-let lightboxBackground2 =
-    document.getElementById("lightboxBackground2");
-let lightbox2 =
-    document.getElementById("lightbox2");
-let lightboxCloser2 =
-    document.getElementById("lightboxCloser2");
-
-function openLightbox2() {
-    lightboxContainer2.classList.add("display");
-    lightbox2.src = this.src;
-}
-
-let coffeeImage2 = document.getElementById("coffeeImage2");
-coffeeImage2.onclick = openLightbox;
-
-function closeLightbox() {
-    lightboxContainer2.classList.remove("display");
-    lightbox2.src = "";
-}
-
-lightboxCloser2.onclick = closeLightbox;
-lightboxBackground2.onclick = closeLightbox;
