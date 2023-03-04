@@ -12,50 +12,23 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById("coffeeImage");
-    coffeeImage.onclick = openLightbox;
+// let coffeeImage = document.getElementById("coffeeImage");
+//     coffeeImage.onclick = openLightbox;
 
-let meOutside = document.getElementById("me");
-    meOutside.onclick = openLightbox;
+// let meOutside = document.getElementById("me");
+//     meOutside.onclick = openLightbox;
 
-let rainbowBackground = document.getElementById("rainbowBackground");
-    rainbowBackground.onclick = openLightbox;
+// let rainbowBackground = document.getElementById("rainbowBackground");
+//     rainbowBackground.onclick = openLightbox;
 
-let wNRS = document.getElementById("wNRS");
-    wNRS.onclick = openLightbox;
+// let wNRS = document.getElementById("wNRS");
+//     wNRS.onclick = openLightbox;
 
-let theUnfedMind = document.getElementById("theUnfedMind");
-    theUnfedMind.onclick = openLightbox;
-
-let coffeeLetTwo = document.getElementById("coffeeLetTwo");
-    coffeeLetTwo.onclick = openLightbox;
-
-let coffeeLiveThree = document.getElementById("coffeeLiveThree");
-    coffeeLiveThree.onclick = openLightbox;
-
-let coffeeLifeFour = document.getElementById("coffeeLifeFour");
-    coffeeLifeFour.onclick = openLightbox;
-
-let coffeePieOne = document.getElementById("coffeePieOne");
-    coffeePieOne.onclick = openLightbox;
-
-let coffeePoofTwo = document.getElementById("coffeePoofTwo");
-    coffeePoofTwo.onclick = openLightbox;
-
-let coffeePlayThree = document.getElementById("coffeePlayThree");
-    coffeePlayThree.onclick = openLightbox;
-
-let coffeePollyFour = document.getElementById("coffeePollyFour");
-    coffeePollyFour.onclick = openLightbox;
-
-let coffeeSideOne = document.getElementById("coffeeSideOne");
-    coffeeSideOne.onclick = openLightbox;
-
-let coffeeSaddleTwo = document.getElementById("coffeeSaddleTwo");
-    coffeeSaddleTwo.onclick = openLightbox;
-
-let coffeeSoupThree = document.getElementById("coffeeSoupThree");
-    coffeeSoupThree.onclick = openLightbox;
+let galleryImages = document.getElementsByClassName("galleryImage");
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
+}
 
 
 function closeLightbox() {
