@@ -1,3 +1,7 @@
+body {
+    background-color: #f2f0e9;
+}
+
 /*
   Configure the gallery to be a flex container that will be used as a
   horizontal masonry gallery, and also restrict its width to 800px (100% max),
