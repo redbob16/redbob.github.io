@@ -4,6 +4,7 @@
         <title>Lightbox Gallery</title>
         <link rel="stylesheet" href="css/gallery.css">
         <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/netflixSignIn.css">
     </head>
     <body>
         <header class="topHeader">
@@ -18,17 +19,12 @@
             <div class="mobilPlanButton">
                 <a class="learnMoreAnchor" href="https://www.netflix.com/signup">
                     Learn More
+                    <div class="forwardSlashImg"></div>
                 </a>
             </div>
         </header>
         <div class="heroDivOne">
             <nav class="heroNav">
-                <div class="imgLogoDiv">
-                    <img 
-                        class="logoOne"
-                        src="images/Netflix_Logo_RGB.png"
-                        alt="netflix word logo">
-                </div>
                 <select id="langSwitcher" name="language">
                     <option value="" disabled selected>English</option>
                     <option value="english">English</option>
@@ -53,7 +49,9 @@
                             placeholder="Email Address" 
                             minlength="8" 
                             maxlength="30">
-                        <button class="getStarted">Get Started</button>
+                        <button class="getStarted">Get Started
+                            <div class="forwardSlashImgTwo"></div>
+                        </button>
                     </div>
                 </div>
             </div>  

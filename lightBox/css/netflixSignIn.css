@@ -1,0 +1,56 @@
+.topHeader {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    min-height: 64px;
+}
+
+.headerH5 {
+    background-color: #e50914;
+    border-radius: 17px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 12.8px;
+    font-weight: 600;
+    margin: 8px 16px;
+    padding: 3.2px 8px;
+}
+
+.plansNowText {
+    font-family: Helvetica, sans-serif;
+    font-size: 17.5px;
+    color: #333;
+}
+
+.priceOfPlans {
+    font-size: 20.8px;
+    font-weight: 800;
+    color: #333;
+}
+
+.mobilPlanButton {
+    border: 0;
+    font-weight: 600;
+    margin-left: 0;
+    padding-left: 16px;
+}
+
+.learnMoreAnchor {
+    align-items: center;
+    color: #0071eb;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.heroDivOne {
+    background-image: url("../images/Logonetflix.png");
+    height: 24px;
+    padding-top: 0px;
+    width: auto;
+}
