@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .topHeader {
     align-items: center;
     background-color: #fff;
@@ -49,8 +53,74 @@
 }
 
 .heroDivOne {
-    background-image: url("../images/Logonetflix.png");
-    height: 24px;
-    padding-top: 0px;
-    width: auto;
+    background-image: url("../images/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    padding-top: 20px;
+    min-height: 600px;
+}
+
+.heroNav {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding-top: 8px;
+    margin: 0px 45px;
+    position: relative;
+}
+
+.logoImgDiv {
+
+    margin-right: auto;
+}
+
+.imgLogoDiv {
+    height: 45px;
+    padding-top: 8px;
+    width: 132px;
+}
+
+#langSwitcher {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    margin-right: 24px;
+    position: relative;
+    width: 97px;
+    background-color: transparent;
+}
+
+.login {
+    background-color: #e50914;
+    border: 0px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 35px;
+    width: 85px;
+}
+
+.backgroundImgText {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.hOneText {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0 auto;
+    max-width: 640px;
 }
