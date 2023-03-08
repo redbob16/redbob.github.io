@@ -126,14 +126,10 @@ body {
     width: 85px;
 }
 
-.backgroundImgText {
-    max-width: 640px;
-    margin: 100 auto;
-    padding: 75px 0px;
-    position: relative;
+.backgroundImg {
     text-align: center;
-    width: 100%;
-    z-index: 1;
+    max-width: 640px;
+    margin: 100px auto;
 }
 
 .hOneText {
