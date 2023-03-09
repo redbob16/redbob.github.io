@@ -1,4 +1,4 @@
-gsap.to(".box", 0.5, {
+gsap.to(".box", 0.3, {
     scale: 0.1,
     backgroundColor: "#8C8A68",
     y: 60,
