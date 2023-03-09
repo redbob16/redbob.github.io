@@ -4,11 +4,11 @@
   in addition to centering it on the page.
 */
 #gallery {
-  display: flex;
-  flex-wrap: wrap;
-  width: 800px;
-  max-width: 100%;
-  margin: 0 auto;
+    border-top: solid 10px #333;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /*
