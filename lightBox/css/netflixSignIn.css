@@ -244,3 +244,15 @@ body {
     vertical-align: top;
     width: 25%;
 }
+
+@media screen and (max-width: 480px) {
+    .hOneText h1 {
+        font-size: 48px;
+}
+    .plansNowText {
+    flex-direction: column;
+}
+    #emailInput {
+    width: 100%;
+}
+}
