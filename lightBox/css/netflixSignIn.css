@@ -246,7 +246,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .hOneText h1 {
+    h1.hOneText {
         font-size: 48px;
 }
     .plansNowText {
