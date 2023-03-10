@@ -230,7 +230,6 @@ body {
 
 #lightboxUnordereredList a {
     box-sizing: border-box;
-    padding-bottom: 20px;
     color: #737373;
     text-decoration: none;
     font-size: 13px;
@@ -239,10 +238,14 @@ body {
 .ulItem {
     box-sizing: border-box;
     margin-bottom: 16px;
-    min-width: 100px;
-    padding: 0 12px 0 0;
-    vertical-align: top;
     width: 25%;
+}
+
+.footerLinks {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 480px) {
