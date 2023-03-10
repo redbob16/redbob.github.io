@@ -1,0 +1,171 @@
+/* SET UP ******************************************************************/
+
+#flexBox1,
+#flexBox2,
+#flexBox3,
+#grid {
+    border: 3px dashed #59573C;
+    margin: 12px;
+    padding: 36px;
+}
+
+#flexBox1,
+#flexBox2,
+#flexBox3 {
+    display: flex;
+}
+
+.box {
+    border: 2px solid #333;
+    margin: 12px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.tan {
+    background-color: #f2f0e9;
+}
+
+.red {
+    background-color: #A63737;
+}
+
+.blue {
+    background-color: #617C8C;
+}
+
+/* FLEXBOX 1 SECTION **************************************************/
+
+#flexBox1.center {
+    justify-content: center;
+}
+
+#flexBox1.left {
+    justify-content: flex-start;
+}
+
+#flexBox1.right {
+    justify-content: flex-end;
+}
+
+#flexBox1.spread {
+    justify-content: space-between;
+}
+
+#flexBox1.spreadRes {
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#flexBox1.leftLogo #logo {
+    margin-right: auto;
+}
+
+#flexBox1 li {
+    list-style-type: none;
+}
+
+#flexBox1 li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* FLEXBOX 3 SECTION **************************************************/
+
+#flexBox2 {
+    min-height: 500px;
+}
+
+#flexBox2.topLeft {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#flexBox2.bottomRight {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#flexBox2.center {
+    justify-content: center;
+    align-items: center;
+}
+
+#flexBox2.topRight {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#flexBox2.bottomLeft {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#flexBox2.topRight.column {
+    flex-direction: column;
+}
+
+#flexBox2 {
+    background-color: #BF7E04;
+}
+
+/* FLEXBOX 3 SECTION **************************************************/
+
+#flexBox3 {
+    flex-wrap: wrap;
+}
+
+#flexBox3.narrow {
+    padding: 200px;
+}
+
+#flexBox3.threeColumns .box {
+    /* this is required for sizing calculations */
+    box-sizing: border-box;
+    /* 
+        calc lets us calculate with mixed units.
+        in this case, desired width% - margin
+    */
+    width: calc(33.33% - 24px*2);
+}
+
+#flexBox3.fourColumns .box {
+    /* this is required for sizing calculations */
+    box-sizing: border-box;
+    /* 
+        calc lets us calculate with mixed units.
+        in this case, desired width% - margin
+    */
+    width: calc(25% - 24px*2);
+}
+
+#flexBox3.fillSpace .box {
+    flex: 1;
+}
+
+#flexBox3.spaceImg {
+    width: 100%;
+}
+
+/* GRIDS SECTION **************************************************/
+
+#grid {
+    border: 3px dotted #BF7E04;
+    display: grid;
+    background-color: #333;
+}
+
+#grid.img {
+    width: 100%;
+}
+
+#grid.twoColumns {
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid.threeColumns {
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3, 1fr);
+}
