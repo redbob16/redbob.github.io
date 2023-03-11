@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Lightbox Gallery</title>
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/disneyPlus.css">
+    </head>
+    <body>
+        <div class="heroDivOne">
+            <nav class="heroNav">
+                <div class="logoImgDiv">
+                    <img 
+                        class="imgLogoDiv"
+                        src="images/disneyPlusLogoWhite.png"
+                        alt="netflix word red logo">
+                </div>
+                <button class="signUp" href="#">SIGN UP NOW</button>
+                <button class="login" href="#">LOG IN</button>
+            </nav>
+            <div class="backgroundImg">
+                <div class="backgroundImgText">
+                    <div class="inputEmailField">
+                        <input 
+                            id="emailInput" 
+                            type="email" 
+                            name="email" 
+                            placeholder="Email Address" 
+                            minlength="8" 
+                            maxlength="30">
+                        <button class="getStarted" href="#">GET THE DISNEY BUNDLE</button>
+                        <p class="pTag">Enter your email to create or restart your subscription.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div>
+            <a class="linkOne" href="#">TRENDING</a>
+            <a class="linkOne" href="#">NEW ON DISNEY+</a>
+            <a class="linkOne" href="#">COMING SOON</a>
+        </div>
+        <div id="gallery">
+            <!-- Gallery/Image Code -->
+            <img
+                class="galleryImage"
+                src="images/wakandaForever.jpg"
+                alt="coffee">
+            <img 
+                class="galleryImage"
+                src="images/andor.jpg"
+                alt="me2">
+            <img
+                class="galleryImage"
+                src="images/turningRed.jpg"
+                alt="Prisim">
+        </div>
+        <div id="gallery">
+            <img
+                class="galleryImage"
+                src="images/fireOfLove.jpg"
+                alt="Were Not Really Strangers">
+            <img
+                class="galleryImage"
+                src="images/encanto.jpg"
+                alt="The Unfed Mind">
+            <img
+                class="galleryImage"
+                src="images/zootopiaPlus.jpg"
+                alt="Coffee Image 2">
+        </div>
+        <!-- Lightbox Code -->
+        <div id="lightboxContainer">
+            <div id="lightboxBackground" class="closer"></div>
+            <img id="lightbox" src="" alt="">
+            <span id="lightboxCloser" class="closer">×</span>
+        </div>
+        <footer id="lightboxFooter">
+            <div id="footerContent">
+                <div id="questions">
+                        <img class="" src="images/disneyPlusLogoWhite.png" alt="">
+                </div>
+                <div id="lightboxUnordereredList">
+                    <div class="footerLinks">
+                        <a href="#" class="ulItem">English</a>
+                        <a href="#" class="ulItem">Subscriber Agreement</a>
+                        <a href="#" class="ulItem">Privacy Policy</a>
+                        <a href="#" class="ulItem">Your California Privacy Rights</a>
+                        <a href="#" class="ulItem">Do Not Sell My Personal Information</a>
+                        <a href="#" class="ulItem">Children's Online Privacy Policy</a>
+                        <a href="#" class="ulItem">Closed Captioning</a>
+                        <a href="#" class="ulItem">Interest-Based Ads</a>
+                        <a href="#" class="ulItem">Supported Devices</a>
+                        <a href="#" class="ulItem">Help</a>
+                        <a href="#" class="ulItem">Gift Disnev+</a>
+                        <a href="#" class="ulItem">About Us</a>
+                        <a href="#" class="ulItem">Disnev+ Partner Program</a>
+                        <a href="#" class="ulItem">Disney Bundle</a>
+                        <a href="#" class="ulItem">Content and platform availability may vary by region.</a>
+                        <a href="#" class="ulItem">© Disney. All Rights Reserved.</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Lightbox JavaScript -->
+        <script src="js/lightBox.js"></script>
+    </body>
+</html>
